@@ -40,6 +40,10 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+
 vars:
-  tgt_db: 'RAW_DB'
-  tgt_sch: 'PUBLIC'
+  tgt_db: 'DV_LAB_DB'
+  stg_sch: 'L00_STG'
+  l10: 'L10_RDV'
+  l20: 'L20_BDV'
+  l30: 'L30_ID'

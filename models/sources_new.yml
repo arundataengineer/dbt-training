@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+    - name: snowflake_sample_db
+      description: This is a replica of the Postgres database used by our app
+      database: SNOWFLAKE_SAMPLE_DATA
+      schema: TPCH_SF10
+      tables:
+          - name: NATION
+            description: One record per Nation.
+          - name: REGION
