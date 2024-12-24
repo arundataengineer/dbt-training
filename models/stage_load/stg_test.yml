@@ -1,0 +1,11 @@
+version: 2
+
+models:
+    - name: nation_load
+      columns:
+          - name: N_NATIONKEY
+            tests:
+                - unique
+                - not_null
+                    
+                
