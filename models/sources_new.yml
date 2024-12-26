@@ -9,3 +9,4 @@ sources:
           - name: NATION
             description: One record per Nation.
           - name: REGION
+          - name: CUSTOMER
