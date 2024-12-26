@@ -7,5 +7,12 @@ models:
             tests:
                 - unique
                 - not_null
+    - name: region_load
+      columns:
+        - name: R_REGIONKEY
+          tests:
+            - unique
+            - not_null
+                
                     
                 
